@@ -1,0 +1,16 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "NodeJS Server code for Log Entry Project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js --dev=true"
+  },
+  "author": "Sanchit Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "sqlite3": "^5.0.2",
+    "express-http-proxy": "^1.6.3"
+  }
+}

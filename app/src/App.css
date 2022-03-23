@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+}
+
+button {
+  margin: 10px;
+  font-size: larger;
+  padding: 10px;
+}
+
+#entries {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#entries td,
+#entries th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+#entries tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#entries tr:hover {
+  background-color: #ddd;
+}
+
+#entries th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #424343;
+  color: white;
+}
+
+input {
+  padding: 12px 20px;
+  margin: 8px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="textarea"] {
+  width: 100%;
+}
+
+
+
+form > button {
+  background-color: #424343;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form > button:hover {
+  background-color: #1e1f1f;
+}
+
+form {
+  margin: 20px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 50px;
+}
+
+label{
+  display: inline-grid;
+  margin: 8px;
+}
+label[for="Description"]{
+  display: unset;
+}
